@@ -9,11 +9,8 @@ import { Component, OnInit } from '@angular/core';
     @media (max-width: 1200px) {#searchForm {display: none}}
   `]
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
